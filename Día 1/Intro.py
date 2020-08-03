@@ -1,4 +1,4 @@
-from Ayudas import *
+from Ayudas import ObtenerNumeroPacientes, PacienteTiene
 
 def Diagnostico(sintomas):
     # TODO

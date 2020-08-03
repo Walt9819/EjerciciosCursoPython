@@ -19,7 +19,7 @@ def ObtenerNumeroPacientes(pregunta = "¿Cuántos pacientes hay hoy?: "):
 
     respuesta = input(pregunta)
     while not respuesta.isnumeric():
-        respuesta = input("¿Cuántos pacientes hay hoy?: ")
+        respuesta = input(pregunta)
     return int(respuesta)
 
 def PacienteTiene(sintoma):
