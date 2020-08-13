@@ -13,7 +13,7 @@ def CasosIniciales(iniciales):
 
 
 # Total de personas
-dimension = ObtenerNumeroEntero(pregunta='¿Cuántas personas hay en la simulación? (Se tomará floor(sqrt))')
+dimension = ObtenerNumeroEntero(pregunta='¿Cuántas personas hay en la simulación? (Se tomará floor(sqrt)):')
 
 # Casos iniciales
 iniciales = ObtenerNumeroEntero(pregunta='¿Cuántos contagiados iniciales hay?: ')
